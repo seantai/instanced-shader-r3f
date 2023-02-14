@@ -12,5 +12,17 @@ body,
 }
 
 body {
-  background: #323232;
+  background-image: linear-gradient(to right bottom, #d1b1e2, #b7d8d8, #f7b0c2);
+}
+
+button{
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  padding: 12px;
+  margin-bottom: 0px;
+  background-color: #dad3d3;
+  opacity: .9;
+  z-index: 10000000;
+  box-shadow: 0 0 4px rgb(0 0 0 / 15%);
 }
