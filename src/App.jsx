@@ -137,7 +137,16 @@ export default function App() {
         <Scene />
         <Perf />
       </Canvas>
-      <button>{"</>"}</button>
+      <button
+        onClick={() => {
+          window.open(
+            "https://github.com/seantai/instanced-shader-r3f",
+            "_blank"
+          );
+        }}
+      >
+        {"</>"}
+      </button>
     </>
   );
 }
