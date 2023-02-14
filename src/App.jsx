@@ -31,10 +31,10 @@ const Scene = () => {
       Array.from({ length: count }, () => Math.random() + 0.4)
     );
     const a_radius = new Float32Array(
-      Array.from({ length: count }, () => Math.random() + 0.4)
+      Array.from({ length: count }, () => Math.random() + 1)
     );
     const a_speed = new Float32Array(
-      Array.from({ length: count }, () => Math.random() + 0.4)
+      Array.from({ length: count }, () => Math.random() + 0.8)
     );
     return [a_distort, a_radius, a_speed];
   }, [count]);
